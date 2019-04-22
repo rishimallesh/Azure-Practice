@@ -18,7 +18,7 @@ variables:
   tag: '$(Build.BuildId)'
   
   # Kubernetes Namespace
-  k8sNamespace: 'default'
+  k8sNamespace: 'dev'
   imagePullSecret: 'yamlk8-auth'
 
   # Agent VM image name
